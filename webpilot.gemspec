@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.version     = WebPilot::Version
   s.authors     = ['Sam Rawlins']
   s.email       = ['katt-core@listserv.arizona.edu']
+  s.homepage    = 'https://github.com/srawlins/WebPilot'
   s.summary     = %q{A facade for Selenium::WebDriver to make the library more ruby-esque.}
   s.description = %q{WebPilot is a wrapper for Selenium::WebDriver that makes the library more ruby-esque. Rather than inherit from Selenium::WebDriver, an instance of WebPilot has a Selenium::WebDriver as an attribute. It serves other functions rather than just extending Selenium::WebDriver, so it also wraps a logger, saves screenshots, etc.}
 

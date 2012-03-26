@@ -61,5 +61,5 @@ WebPilot follows [Semantic Versioning](http://semver.org/) (at least approximate
 License
 -------
 
-Please see [LICENSE.md](blob/master/LICENSE.md).
+Please see [LICENSE.md](WebPilot/blob/master/LICENSE.md).
 

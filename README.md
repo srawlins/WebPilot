@@ -42,7 +42,7 @@ WebPilot is meant to be used primarily as a helper for using Selenium with Cucum
 
 ### `WebPilot.new` options
 
-* `:browser` should be one of the browsers supported by `[WebDriver.for](http://selenium.googlecode.com/svn/trunk/docs/api/rb/Selenium/WebDriver.html#for-class_method)`
+* `:browser` should be one of the browsers supported by [WebDriver.for](http://selenium.googlecode.com/svn/trunk/docs/api/rb/Selenium/WebDriver.html#for-class_method)
 * `:is_headless` should be a boolean, indicating whether to use `Selenium::WebDriver` should run under a headless X display, using the [headless](https://github.com/leonid-shevtsov/headless) gem.
 * `:logger` can be one of several things:
   * `nil` will instantiate a logger that writes to `/dev/null`
@@ -61,5 +61,5 @@ WebPilot follows [Semantic Versioning](http://semver.org/) (at least approximate
 License
 -------
 
-Please see [LICENSE.md](LICENSE.md).
+Please see [LICENSE.md](blob/master/LICENSE.md).
 
